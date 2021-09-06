@@ -1,0 +1,131 @@
+@media only screen and (max-width:1010px){
+    html{
+        font-size: 55.5%;
+    }
+    .upper{
+        flex-wrap: wrap;
+      
+    }
+    .logo{
+        width: 5rem;
+    }
+    .navbar ul{
+        flex-wrap: nowrap;
+                    }
+    .left img{
+        width: 63rem;
+    }
+    div.right{
+    justify-content: center;
+    align-items: center;
+      
+    }
+    div.lower{
+        display: none;
+    }
+}
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box; 
+}
+#outerbox{
+display: flex;
+flex-direction:column;
+
+}
+.upper{
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+/* border: 2px solid black; */
+/* background-color: green; */
+}
+.left img{
+height: 619px;
+/* max-width: 619px; */
+}
+div.right{
+display: flex;
+flex-direction: column;
+margin-left: 2rem;
+justify-content: center;
+/* align-items: center; */
+/* border: 2px solid black; */
+/* background-color: blue; */
+}
+.logo{
+height: 47px;
+width: 6%;
+padding-bottom: 0.75rem;
+}
+.h1{
+margin: 2.8rem 0;
+font-size: 4rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #0F1419;
+font-weight: bolder;
+/* min-height: 84.800px;
+min-width: 29.95rem; */
+}
+.h2{
+font-size: 1.9375rem;
+color: #0F1419;
+font-weight: bolder;
+margin: 2rem 2rem 2rem 0rem;
+
+}
+.signup{
+background-color: #1DA1F2;
+color: #ffffff;
+border: 1px solid #1DA1F2;
+padding: 1rem;
+font-size: 0.9rem;
+font-weight: 700;
+border-radius:59px;
+width: 43%;
+min-width: 524px;
+}
+.login{
+padding: 1rem;
+font-size: 0.9rem;
+font-weight: 700;
+border-radius:59px;
+width: 43%;
+min-width: 524px;
+border: 1px solid #1DA1F2;
+color: #1DA1F2;
+background-color: #FFFFFF;
+margin-top: 0.7rem;
+}
+
+
+.lower{
+/* background-color: cyan; */
+display: flex;
+flex-direction: row;
+margin: 0 5rem;
+padding:1rem 0;
+}
+.navbar ul{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.navbar ul li,.copyright{
+list-style: none;
+font-size: 0.8125rem;
+color: #5B7083;
+padding-right: 1rem;
+
+}
+.navbar ul li:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+.signup:hover{
+cursor: pointer;
+}
+.login{
+cursor: pointer;
+}
